@@ -20,5 +20,6 @@ numberOfEmp = 4
 # which can be done using a list command
 empList = list(empId, empName, numberOfEmp)
 
-print(empList)
+print(empList) ##tst
+
 
