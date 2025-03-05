@@ -1,0 +1,22 @@
+NationalLeague SwissLeague
+ HomeTeam AwayTeam HomeTeam AwayTeam
+ Bern 4 Zurich 1 Thurgau 5 Visp 0
+ Davos 1 EHCKloten 4 Basel 4 GCKLions 5
+ Fribourg 6 LangnauTigers 0 GCKLions 4 Basel 3
+ Lausanne 0 Zug 5 LaChaux-de-Fonds 9 Sierre 5
+ Lugano 5 Biel 6 Olten 5 Langenthal 2
+ Rapperswil-Jona 7 Ambri-Piotta 4 Visp 5 Thurgau 1
+ Servette 3 Ajoie 2 Thurgau 2 Visp 1
+ Ajoie 0 Fribourg 4 Langenthal 2 Olten 5
+ Ambri-Piotta 2 Lugano 4 Basel 3 GCKLions 4
+ Biel 8 Lausanne 1 Sierre 4 LaChaux-de-Fonds 2
+ EHCKloten 3 Rapperswil-Jona 2 GCKLions 1 Basel 2
+ LangnauTigers 1 Bern 3 LaChaux-de-Fonds 8 Sierre 2
+ Zug 6 Servette 1 Visp 5 Thurgau 2
+ Zurich 4 Davos 1 Olten 4 Langenthal 1
+ Davos 2 Ambri-Piotta 3 Thurgau 1 Visp 4
+ Lausanne 3 Rapperswil-Jona 2 Langenthal 2 Olten 3
+ Zug 4 Fribourg 2 Basel 6 GCKLions 1
+ Zurich 3 Zug 2 Sierre 1 LaChaux-de-Fonds 2
+ Lausanne 3 Ambri-Piotta 2 GCKLions 3 Basel 1
+ Bern 2 Ajoie 3 LaChaux-de-Fonds 5 Sierre 2
