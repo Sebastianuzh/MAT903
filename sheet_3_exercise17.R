@@ -27,3 +27,16 @@ q3 <- quantile(spring_weights, 0.75)
 
 # Print the result
 print(q3)
+
+
+dev.new()
+# Constructing the boxplot
+boxplot(spring_weights, 
+        main = "Boxplot of Spring Weights", 
+        ylab = "Maximal Weight (tons)", 
+        col = "lightblue")
+
+# Add a horizontal line for the third quartile (from part 2)
+q3 <- quantile(spring_weights, 0.75)
+abline(h = q3, col = "red", lty = 2)
+
