@@ -61,3 +61,17 @@ cat("Swiss League SD (Total Points):", swiss_sd_total, "\n")
 
 
 
+# Boxplot for Score Difference
+par(mfrow=c(1,2)) # Arrange plots side by side
+boxplot(national_league$ScoreDiff, swiss_league$ScoreDiff,
+        names = c("National League", "Swiss League"),
+        main = "Score Difference",
+        col = c("blue", "red"), ylab = "Difference")
+
+# Boxplot for Total Points
+boxplot(national_league$TotalPoints, swiss_league$TotalPoints,
+        names = c("National League", "Swiss League"),
+        main = "Total Points",
+        col = c("blue", "red"), ylab = "Total Points")
+
+
