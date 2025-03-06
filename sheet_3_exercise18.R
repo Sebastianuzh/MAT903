@@ -1,26 +1,8 @@
-# Creating a data frame for the National League
-national_league <- data.frame(
-  HomeTeam = c("Bern", "Davos", "Fribourg", "Lausanne", "Lugano", "Rapperswil-Jona", "Servette", "Ajoie", "Ambri-Piotta",
-               "Biel", "EHCKloten", "LangnauTigers", "Zug", "Zurich", "Davos", "Lausanne", "Zug", "Zurich", "Lausanne",
-               "Bern"),
-  AwayTeam = c("Zurich", "EHCKloten", "LangnauTigers", "Zug", "Biel", "Ambri-Piotta", "Ajoie", "Fribourg", "Lugano",
-               "Lausanne", "Rapperswil-Jona", "Bern", "Servette", "Davos", "Ambri-Piotta", "Rapperswil-Jona", "Fribourg",
-               "Zug", "Ambri-Piotta", "Ajoie"),
-  HomeScore = c(4, 1, 6, 0, 5, 7, 3, 0, 2, 8, 3, 1, 6, 4, 2, 3, 4, 3, 3, 2),
-  AwayScore = c(1, 4, 0, 5, 6, 4, 2, 4, 4, 1, 2, 3, 1, 1, 3, 2, 2, 2, 2, 3)
-)
+# Reading the TXT file into R
+hockey_data <- read.table("C:/Users/sebas/OneDrive/Documents/repository_git/MAT903/Daten_Sheet_3.txt", header = TRUE, sep = " ")
 
-# Creating a data frame for the Swiss League
-swiss_league <- data.frame(
-  HomeTeam = c("Thurgau", "Basel", "GCKLions", "LaChaux-de-Fonds", "Olten", "Visp", "Thurgau", "Langenthal",
-               "Basel", "Sierre", "GCKLions", "LaChaux-de-Fonds", "Visp", "Olten", "Thurgau", "Langenthal",
-               "Basel", "Sierre", "GCKLions", "LaChaux-de-Fonds"),
-  AwayTeam = c("Visp", "GCKLions", "Basel", "Sierre", "Langenthal", "Thurgau", "Visp", "Olten", "GCKLions",
-               "LaChaux-de-Fonds", "Basel", "Sierre", "Thurgau", "Langenthal", "Visp", "Olten", "GCKLions",
-               "LaChaux-de-Fonds", "Basel", "Sierre"),
-  HomeScore = c(5, 4, 4, 9, 5, 5, 2, 2, 3, 4, 1, 8, 5, 4, 1, 2, 6, 1, 3, 5),
-  AwayScore = c(0, 5, 3, 5, 2, 1, 1, 5, 4, 2, 2, 2, 2, 1, 4, 3, 1, 2, 1, 2)
-)
+# Displaying the data
+print(hockey_data)
 
 
 # Compute score difference and total points
